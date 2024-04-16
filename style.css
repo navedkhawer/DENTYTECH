@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: black;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-part1 h1{
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    padding: 3px 10px;
+}
+.nav-part1 i{
+    font-size: 17px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    padding: 6px 10px;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.nav-part2 img{
+    height: 24px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.nav-part2 h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.nav-part3 button{
+    font-size: 17px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    padding: 3px 12px;
+    color: black;
+    background-color: white;
+}
+.nav-part3 #btn2{
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+.bounding{
+    width: 100%;
+    /* background-color: blue; */
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bounding h1{
+    color: rgb(0, 0, 0);
+    font-size: 145px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    transform: translateY(100%);
+}
+.main>img{
+    height: 380px !important;
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s ease !important;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(0deg);
+    transition: all 0.3s ease;
+    
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#img4{
+    transition: mouseover 0.3s ease;
+}
+#bottom-textleft{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.right-bottom{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+}
+.social-icons{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.right-bottom h5{
+    font-size: 14px;
+    font-weight: 600;
+}
